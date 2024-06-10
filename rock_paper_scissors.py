@@ -37,3 +37,17 @@ def determinewinner(user_choice, computer_choice):
 # computer_choice = getcomputerChoice()
 # data=determinewinner(user_choice, computer_choice)
 # print(data)
+
+def play():
+    print("welcome to rockpaperscissors game")
+    print("rock")
+    print("paper")
+    print("scissors")
+    # n=(input("enter chioces"))
+    user_choice = getUserChoice()
+    computer_choice = getcomputerChoice()
+    data=determinewinner(user_choice, computer_choice)
+    return(data)
+
+
+play()
